@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "887078461752",
+    "project_id": "nightingale-chatapp",
+    "storage_bucket": "nightingale-chatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887078461752:android:420ea34e8bd5d9ffd761cd",
+        "android_client_info": {
+          "package_name": "com.example.nightingale_flutter_chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887078461752-52jheblo09h5qv8usg7d10j4qa6pke2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqxaEQzxK2k-3WC9NmYM3uXsGrJNzleoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887078461752-52jheblo09h5qv8usg7d10j4qa6pke2d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "887078461752-2flid40spibg26j6afm0a6mfihjvbb4s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nightingaleFlutterChatapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
