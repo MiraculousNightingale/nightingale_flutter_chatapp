@@ -42,7 +42,7 @@ class _AuthScreenState extends State<AuthScreen> {
         _isAuthenticating = true;
       });
       if (_isLogin) {
-        final userCredentials = _firebase.signInWithEmailAndPassword(
+        final userCredentials = await _firebase.signInWithEmailAndPassword(
             email: _enteredEmail, password: _enteredPassword);
       } else {
         final userCredentials = await _firebase.createUserWithEmailAndPassword(
@@ -69,6 +69,14 @@ class _AuthScreenState extends State<AuthScreen> {
         SnackBar(
           content: Text(error.message ?? 'Authenticaiton failed.'),
         ),
+      );
+      setState(() {
+        _isAuthenticating = false;
+      });
+    } catch (e) {
+      ScaffoldMessenger.of(context).clearSnackBars();
+      SnackBar(
+        content: Text(e.toString() ?? 'Authenticaiton failed.'),
       );
       setState(() {
         _isAuthenticating = false;

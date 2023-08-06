@@ -6,8 +6,13 @@
     "configurations": [
         {
             "name": "nightingale_flutter_chatapp",
+            "program": "lib/main.dart",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "toolArgs": [
+                "-v",
+                "--enable-software-rendering",
+            ]
         },
         {
             "name": "nightingale_flutter_chatapp (profile mode)",
