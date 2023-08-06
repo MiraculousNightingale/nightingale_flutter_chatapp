@@ -1,16 +1,19 @@
-# nightingale_flutter_chatapp
+# Chat App
 
-A new Flutter project.
+A chat application I created to practice Flutter development.
 
-## Getting Started
+Generally based on the udemy course which I followed.
 
-This project is a starting point for a Flutter application.
+The main purpose is to try working with Firebase authentication, subscribing to a Firestore data stream and setting up push notifications.
 
-A few resources to get you started if this is your first Flutter project:
+## Preview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/f5c85f86-a371-4cba-b800-9c42123705a0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/36cf983a-6036-4cff-b1cd-0a16cccc6a64
+
+## How to set-up and run the project
+
+- Pull the project from the repo.
+- Run `flutter pub get`.
+- Launch the device/emulator of your choice and run the app on it.
