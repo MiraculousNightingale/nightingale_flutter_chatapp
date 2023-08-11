@@ -8,9 +8,9 @@ The main purpose is to try working with Firebase authentication, subscribing to 
 
 ## Preview
 
-https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/f5c85f86-a371-4cba-b800-9c42123705a0
+https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/54794ae9-5495-4e68-bf62-eccb600c2bdf
 
-https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/36cf983a-6036-4cff-b1cd-0a16cccc6a64
+https://github.com/MiraculousNightingale/nightingale_flutter_chatapp/assets/34477181/6a193d6a-efeb-4436-972f-86b4589f0bbe
 
 ## How to set-up and run the project
 
